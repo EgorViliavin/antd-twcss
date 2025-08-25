@@ -1,0 +1,32 @@
+
+@tailwind utilities;
+
+@theme {
+  /* Basic */
+  --color-basic-900: #1F1F1F;
+  --color-basic-800: #3F3F3F;
+  --color-basic-700: #5E5E5E;
+  --color-basic-600: #727272;
+  --color-basic-500: #9B9B9B;
+  --color-basic-400: #BABABA;
+  --color-basic-300: #DDDDDD;
+  --color-basic-200: #ECECEC;
+  --color-basic-0:   #FFFFFF;
+
+  /* Primary */
+  --color-primary-800: #27E39E;
+  --color-primary-500: #A3FCC2;
+  --color-primary-300: #BEF6CF;
+
+  /* Error */
+  --color-error-800: #E33D27;
+  --color-error-300: #FFDEDA;
+
+  /* Attention */
+  --color-attention-800: #FFB53D;
+  --color-attention-300: #FEEDD4;
+
+  /* Purple */
+  --color-purple-800: #7527E3;
+  --color-purple-300: #D8D4F9;
+}
