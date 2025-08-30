@@ -1,4 +1,3 @@
-
 import { Alert, Button, Flex, List, Spin } from "antd";
 import { Typography } from "antd";
 
@@ -64,12 +63,30 @@ const { Title } = Typography;
 //         <Spin />
 //       )}
 //     </>
-   
+
 //   );
 // });
 
-function App () {
-  return  <Button type="primary" className="bg-basic-600">Primary</Button>
+function App() {
+  return (
+    <>
+      <Flex gap={10}>
+        {/* У кнопок единственная проблема с ховером, что тоже решаемо если
+        использовать свой компонент */}
+        <Button className="bg-attention-300 border-attention-800">
+          Primary
+        </Button>
+        <Button className="bg-purple-300 border-purple-800">Primary</Button>
+        <Button className="bg-gray-300 border-gray-800">Primary</Button>
+        {/* Иконки можно настроить в своем компоненте */}
+        <Alert
+          className="bg-purple-300 border-purple-800 w-2/6"
+          message="asd"
+          showIcon
+        />
+      </Flex>
+    </>
+  );
 }
 
 export default App;
